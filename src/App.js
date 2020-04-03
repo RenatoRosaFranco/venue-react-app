@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 
 
-import Header   from './components/header_footer/Header';
-import Featured from './components/featured';
-import VenueNfO from './components/venueNfO';
+import Header    from './components/header_footer/Header';
+import Featured  from './components/featured';
+import VenueNfO  from './components/venueNfO';
+import HighLight from './components/Highlights';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
       <Header/>
       <Featured/>
       <VenueNfO/>
+      <HighLight/>
     </div>
     )
   }

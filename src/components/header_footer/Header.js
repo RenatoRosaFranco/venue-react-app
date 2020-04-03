@@ -10,7 +10,8 @@ class Header extends Component {
 
     state = {
         drawOpen: false,
-        headerShow: false
+        headerShow: false,
+        menuIconColor: 'inherit'
     }
 
     componentDidMount() {
@@ -24,12 +25,14 @@ class Header extends Component {
     handleScroll = () => {
         if (window.scrollY > 0) {
             this.setState({
-                headerShow: true
+                headerShow: true,
+                menuIconColor: '#fff'
             })
         }
         else {
             this.setState({
-                headerShow: false
+                headerShow: false,
+                menuIconColor: 'inherit'
             })
         }
     }
@@ -61,6 +64,7 @@ class Header extends Component {
                         <MenuIcon
                                 aria-label="menu"
                                 color="inherit"
+                                style={{color: this.state.menuIconColor }}
                                 onClick={() => { this.toggleDrawer(true) }}
                             >
 

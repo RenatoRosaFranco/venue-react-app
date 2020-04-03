@@ -5,7 +5,10 @@ import Discount from './Discount';
 
 const Highlights = () => {
   return(
-    <div className="highlight_wrapper">
+    <div className="highlight_wrapper" style={{ 
+      background: '#FFF',
+      'padding-top': 10
+    }}>
       <Description/>
       <Discount/>
     </div>

@@ -41,7 +41,7 @@ export default class Discount extends Component {
           <Slide right>
           <div className="discount_description">
               <h3>Purchase Tickets before 20th June</h3>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+              < p > ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.< /p>
             
               <MyButton 
                 text="Purchase tickets"
